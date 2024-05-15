@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    API_URL: 'https://bookit.vercel.app',
+    API_URL: 'https://next-demo-one-puce.vercel.app',
     DB_LOCAL_URI: 'mongodb://127.0.0.1:27017/bookit',
     DB_URI:
       'mongodb+srv://sashamakogon94:AUI2YseTcR2GUb27@bookit.p3ayzy2.mongodb.net/bookit?retryWrites=true&w=majority&appName=bookit',
@@ -25,7 +25,7 @@ const nextConfig = {
     GEOCODER_API_KEY: 'pk.9e5fc3b7866c642258f5d078c74253d1',
     GEOCODER_PROVIDER: 'locationiq',
 
-    NEXTAUTH_URL: 'https://bookit.vercel.app',
+    NEXTAUTH_URL: 'https://next-demo-one-puce.vercel.app',
     NEXTAUTH_SECRET: '7SRgGmEBbYCB+144Yk/cr3Vd+uY61/AMwZsgBr7bcIk=',
     REVALIDATE_TOKEN: 'jsaaowiii_wadawkkakkkwkdawd212412ed',
   },
