@@ -5,7 +5,9 @@ require('dotenv').config({ path: 'next.config.js' });
 
 const seedRooms = async () => {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/bookit');
+    await mongoose.connect(
+      'mongodb+srv://sashamakogon94:AUI2YseTcR2GUb27@bookit.p3ayzy2.mongodb.net/bookit?retryWrites=true&w=majority&appName=bookit'
+    );
 
     await Room.deleteMany();
     console.log('Rooms are deleted');

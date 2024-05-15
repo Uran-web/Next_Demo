@@ -4,7 +4,7 @@ const nextConfig = {
     API_URL: 'https://bookit.vercel.app',
     DB_LOCAL_URI: 'mongodb://127.0.0.1:27017/bookit',
     DB_URI:
-      'mongodb+srv://sashamakogon94:AUI2YseTcR2GUb27@bookit.p3ayzy2.mongodb.net/?retryWrites=true&w=majority&appName=bookit',
+      'mongodb+srv://sashamakogon94:AUI2YseTcR2GUb27@bookit.p3ayzy2.mongodb.net/bookit?retryWrites=true&w=majority&appName=bookit',
 
     STRIPE_WEBHOOK_SECRET: 'whsec_7HD5AXWfVlCfThgHLGjdnbnxCKpUXaMo',
 
